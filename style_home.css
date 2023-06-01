@@ -1,0 +1,347 @@
+body {
+    margin-top: 60px;
+    padding-top: 56px;
+}
+
+.topcontainer {
+    margin-top: 50px;
+}
+
+.sticky-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sticky-arrow:hover {
+    background-color: #FF6000;
+}
+
+.heading_details {
+    color: rgba(255, 255, 255, 0.396);
+    font-size: large;
+}
+
+.menuItems {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+
+}
+
+
+.whyYouChooseSriLanka {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.overallSriLanka {
+    text-align: center;
+
+    font-family: 'Inter';
+
+}
+
+.whyYouShouldChooseus {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+}
+
+.expertise {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #D6E4F0;
+}
+
+.expertiseFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.convenience {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #D6E4F0;
+}
+
+.convenienceFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.support {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #D6E4F0;
+}
+
+.supportFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.reputation {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #D6E4F0;
+}
+
+.reputationFont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.handPicked {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    width: 918px;
+    height: 86px;
+    left: 261px;
+    top: 141px;
+}
+
+.container1 {
+    overflow: hidden;
+
+}
+
+.packages {
+    width: 300px;
+    height: 600px;
+    left: 44px;
+    top: 242px;
+    background: #D6E4F0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.packageback {
+    width: 300px;
+    height: 600px;
+    left: 44px;
+    top: 242px;
+    background-image: url(rectanglemap.svg);
+    /* background: #D6E4F0; */
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* this is the flip process of the tour packages */
+.flip-box {
+    width: 200px;
+    height: 700px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-box-back {
+    transform: rotateY(180deg);
+}
+
+.topDestinations {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1px;
+    background-color: #1E56A0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+}
+
+.sigiriyaHead {
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.ellaHead {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.kandyHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.galleHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.yalaHead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.polonnaruwahead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.anuradhapurahead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.mirissahead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.nuwarahead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.trincohead {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+/* last page */
+/* review section */
+.reviewBox {
+    width: 373px;
+    height: 222px;
+    left: 101px;
+    top: 145px;
+
+    background: #D6E4F0;
+    border: 1px solid #000000;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px;
+}
+
+p a {
+    text-decoration: none;
+}
