@@ -3,14 +3,18 @@ body {
     padding-top: 56px;
 }
 
-.topcontainer {
-    margin-top: 50px;
-}
+/* .topcontainer {
+    margin-top: 20px;
+} */
 
 .sticky-arrow {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    background: #FFA559;
+    border-radius: 20px;
+    width: 60px;
+    height: 54px;
 }
 
 .sticky-arrow:hover {
@@ -342,6 +346,6 @@ body {
     border-radius: 20px 0px;
 }
 
-p a {
+a {
     text-decoration: none;
 }

@@ -23,9 +23,17 @@
           <img width="50" height="50" src="sample_logo.png" alt="Logo">
         </a>
         <a href="https://www.taron_home_page.com" class="navbar-brand p-lg-2 text-light">Taron</a>
-        <span class=" heading_details"> Sri lanka’s leading travel agent services</span>
-        <div class="mx-2">
-          <img src="Flag_of_Sri_Lanka.svg.png" width="50" alt="">
+        <div class="row d-none d-sm-block">
+          <div class="row">
+            <div class="col">
+              <span class=" heading_details"> Sri lanka’s leading travel agent services</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mx-2">
+              <img src="Flag_of_Sri_Lanka.svg.png" width="50" alt="">
+            </div>
+          </div>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
@@ -74,9 +82,14 @@
   </section>
 
 
-  <a href="#" class="btn btn-secondary sticky-arrow">
-    <img class="img-fluid" src="stickyarrow.png" alt="">
-
+  <a href="#" class="btn sticky-arrow">
+    <div class="d-none d-sm-block">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-arrow-up"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+      </svg>
+    </div>
   </a>
 
   <!--why you should visit sri lanka-->
@@ -222,68 +235,71 @@
 
       <h1 class="topDestinations m-4 justify-content-center row text-light text-center">Top destinations in sri lanka
       </h1>
-      <div class="sigiriya row mb-2" style="background-color: #D6E4F0;">
-        <b class="sigiriyaHead">
-          <a href="sigiriya.html">1. Sigiriya</a></b>
-        <p class="text-left">A UNESCO World Heritage site featuring an ancient fortress, rock paintings, and stunning
-          views of the surrounding landscape.</p>
-      </div>
-      <div class="ella row mb-2" style="background-color: #D6E4F0;">
-        <b class="ellaHead">
-          <a href="ella.html"> 2. Ella </a></b>
-        <p class="text-left">A charming hill town known for its tea plantations, waterfalls, and scenic hiking trails.
-        </p>
-      </div>
-      <div class=" kandy row mb-2" style="background-color: #D6E4F0;">
-        <b class="kandyHead">
-          <a href="kandy.html">3. Kandy</a> </b>
-        <p class="text-left">The cultural capital of Sri Lanka, home to the Temple of the Tooth Relic, botanical
-          gardens, and
-          traditional dance performances.</p>
-      </div>
-      <div class=" galle row mb-2" style="background-color: #D6E4F0;">
-        <b class="galleHead">
-          <a href="galle.html"> 4. Galle </a></b>
-        <p class="text-left">A fortified coastal city with a rich colonial history, picturesque streets, and
-          stunning
-          beaches.</p>
-      </div>
-      <div class=" yala row mb-2" style="background-color: #D6E4F0;">
-        <b class="yalaHead">
-          <a href="yala.html">5. Yala park</a> </b>
-        <p class="text-left">A wildlife sanctuary with an abundance of animals including elephants, leopards, and
-          crocodiles.</p>
-      </div>
-      <div class=" polonnaruwa row mb-2" style="background-color: #D6E4F0;">
-        <b class="polonnaruwahead">
-          <a href="polonnaruwa.html">6. Polonnaruwa</a> </b>
-        <p class="text-left">An ancient capital of Sri Lanka featuring impressive ruins, temples, and monuments.</p>
-      </div>
-      <div class=" anuradhapura row mb-2" style="background-color: #D6E4F0;">
-        <b class="anuradhapurahead">
-          <a href="anuradhapuraya.html"> 7. Anuradhapura </a></b>
-        <p class="text-leftr">Another ancient capital known for its sacred Buddhist sites and impressive
-          architecture.
-        </p>
-      </div>
-      <div class=" mirissa row mb-2" style="background-color: #D6E4F0;">
-        <b class="mirissahead">
-          <a href="mirissa.html">8. Mirissa</a> </b>
-        <p class="text-left">A laid-back coastal town with beautiful beaches, whale watching tours, and vibrant
-          nightlife.</p>
-      </div>
-      <div class=" nuwara row mb-2" style="background-color: #D6E4F0;">
-        <b class="nuwarahead">
-          <a href="nuwaraeliya.html">9. Nuwara eliya</a> </b>
-        <p class="text-left">A picturesque hill station famous for its tea plantations, colonial architecture, and
-          stunning views.</p>
-      </div>
-      <div class=" trinco row mb-2" style="background-color: #D6E4F0;">
-        <b class="trincohead">
-          <a href="trincomalee.html">10. Trincomalee</a> </b>
-        <p class="text-left">A coastal city with beautiful beaches, temples, and historic landmarks, including the
-          iconic Koneswaram
-          Temple.</p>
+      <div class="text-dark">
+        <div class="sigiriya row mb-2" style="background-color: #D6E4F0;">
+          <a href="sigiriya.html">
+            <b class="sigiriyaHead">1. Sigiriya</b>
+          </a>
+          <p class="text-left">A UNESCO World Heritage site featuring an ancient fortress, rock paintings, and stunning
+            views of the surrounding landscape.</p>
+        </div>
+        <div class="ella row mb-2" style="background-color: #D6E4F0;">
+          <b class="ellaHead">
+            <a href="ella.html"> 2. Ella </a></b>
+          <p class="text-left">A charming hill town known for its tea plantations, waterfalls, and scenic hiking trails.
+          </p>
+        </div>
+        <div class=" kandy row mb-2" style="background-color: #D6E4F0;">
+          <b class="kandyHead">
+            <a href="kandy.html">3. Kandy</a> </b>
+          <p class="text-left">The cultural capital of Sri Lanka, home to the Temple of the Tooth Relic, botanical
+            gardens, and
+            traditional dance performances.</p>
+        </div>
+        <div class=" galle row mb-2" style="background-color: #D6E4F0;">
+          <b class="galleHead">
+            <a href="galle.html"> 4. Galle </a></b>
+          <p class="text-left">A fortified coastal city with a rich colonial history, picturesque streets, and
+            stunning
+            beaches.</p>
+        </div>
+        <div class=" yala row mb-2" style="background-color: #D6E4F0;">
+          <b class="yalaHead">
+            <a href="yala.html">5. Yala park</a> </b>
+          <p class="text-left">A wildlife sanctuary with an abundance of animals including elephants, leopards, and
+            crocodiles.</p>
+        </div>
+        <div class=" polonnaruwa row mb-2" style="background-color: #D6E4F0;">
+          <b class="polonnaruwahead">
+            <a href="polonnaruwa.html">6. Polonnaruwa</a> </b>
+          <p class="text-left">An ancient capital of Sri Lanka featuring impressive ruins, temples, and monuments.</p>
+        </div>
+        <div class=" anuradhapura row mb-2" style="background-color: #D6E4F0;">
+          <b class="anuradhapurahead">
+            <a href="anuradhapuraya.html"> 7. Anuradhapura </a></b>
+          <p class="text-leftr">Another ancient capital known for its sacred Buddhist sites and impressive
+            architecture.
+          </p>
+        </div>
+        <div class=" mirissa row mb-2" style="background-color: #D6E4F0;">
+          <b class="mirissahead">
+            <a href="mirissa.html">8. Mirissa</a> </b>
+          <p class="text-left">A laid-back coastal town with beautiful beaches, whale watching tours, and vibrant
+            nightlife.</p>
+        </div>
+        <div class=" nuwara row mb-2" style="background-color: #D6E4F0;">
+          <b class="nuwarahead">
+            <a href="nuwaraeliya.html">9. Nuwara eliya</a> </b>
+          <p class="text-left">A picturesque hill station famous for its tea plantations, colonial architecture, and
+            stunning views.</p>
+        </div>
+        <div class=" trinco row mb-2" style="background-color: #D6E4F0;">
+          <b class="trincohead">
+            <a href="trincomalee.html">10. Trincomalee</a> </b>
+          <p class="text-left">A coastal city with beautiful beaches, temples, and historic landmarks, including the
+            iconic Koneswaram
+            Temple.</p>
+        </div>
       </div>
     </div>
   </section>
